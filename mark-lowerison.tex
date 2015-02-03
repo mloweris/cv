@@ -1,0 +1,261 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{fancyhdr}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{natbib}
+\usepackage{bibentry}
+\nobibliography*
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Mark W.} % Your first name
+\familyname{Lowerison} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+% \address{290 Cougarstone Ci SW}{Calgary, AB T3H 4W4}
+\mobile{(403) 608 5157}
+\phone{(403) 210 6375}
+\email{mwloweri@ucalgary.ca}
+%\homepage{www.ucalgary.ca/~rwturner/engbers.htm}{www.ucalgary.ca/$\sim$rwturner/engbers.htm} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\pagestyle{fancy}
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2004--2008}{Master of Science}{Quantitative Genetics}{University of Guelph}{Ontario Agricultural College}{Guelph, Ontario} 
+\cventry{1997--2001}{Bachelor of Agricultural Sciences}{Animal Science}{Dalhousie University}{Nova Scotia Agricultural College}{Truro, Nova Scotia}
+
+\section{Masters Thesis}
+
+\cvitem{Title}{\emph{Genetic Improvement and Prediction of Dry Matter Intake in Beef Bulls}}
+\cvitem{Supervisor}{Dr. Stephen P. Miller and Dr. James W. Wilton}
+\cvitem{Description}{This thesis examined the utility of genetic merit estimates for dry matter intake generated from predicted phenotypes when compared to observed phenotypes.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Employment}
+
+\cventry{2011--Present}{Director}{Clinical Research Unit}{University of Calgary}{}{Calgary, Alberta}
+\cventry{2008--Present}{President}{Cumberland Genetic Ltd.}{}{}{Calgary, Alberta}
+
+\cventry{2009--2011}{Technical Lead}{Clinical Research Unit}{University of Calgary}{}{Calgary, Alberta}
+\cventry{2004--2009}{Research Associate}{Comparative Orthopedic Research Unit}{University of Guelph}{Ontario Veterinary College}{Guelph, Ontario}
+\cventry{2002--2004}{Breed Improvement Manager}{Canadian Charolais Association}{}{}{Calgary, Alberta}
+
+
+%------------------------------------------------
+
+\subsection{Student Research Positions}
+
+\cventry{2004--2008}{Graduate Student Researcher}{Animal and Poultry Science}{University of Guelph}{Supervisor: Dr. Stephen P. Miller}{}
+\cvitem{Description}{During my time in Guelph I actively participated in the execution of my supervisors other research projects.  These activities ranged in scope from data collection and animal handling experiences through analytics support roles.  Notable experiences include the development of a central database for the storage of livestock performance information, and analytics code to transform feed intake data-logger records into daily phenotypes.}
+
+\cventry{1997--2001}{Undergraduate Student Researcher}{Agriculture and Agri-Food Canada}{Dalhousie University}{Supervisor: Dr. Ed Charmley}{}
+\cvitem{Description}{I was fortunate to be selected as a summer research student at Agriculture Canada's Nappan Experimental Farm during each summer semester of my undergraduate program.  This position represents my first sustained exposure to research.  My responsibilities included feed and biological sample collection, proximal analysis of feed and biological samples and livestock management duties associated with the daily operations of a beef nutrition research program.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Grants}
+\cventry{2014}{Alberta Innovates Health Solutions Knowledge-to-Action Grant}{\newline{}\textsc{University of Calgary}}{\newline{}Increasing usability of administrative healthcare data through a web-based tool for systematic exploration of medical coding ontologies}{}{}
+
+
+% \section{Relevant Courses}
+% \cvitem{2013}{Introduction to Machine Learning -- Coursera}
+% \cvitem{2013}{Data Management for Clinical Research -- Coursera}
+% \cvitem{2013}{Functional Programming Principle in Scala -- Coursera}
+% \cvitem{2013}{Introduction to Data Science -- Coursera}
+% \cvitem{2010}{MDSC 619.02 -- Systems Neuroscience}
+% \cvitem{2009}{KNES 661 -- Advanced Data Analysis Methods}
+% \cvitem{2008}{ENEL 619 -- Computational Cellular Electrophysiology}
+% \cvitem{2008}{Summer School in Computational Neuroscience, University of Ottawa}
+
+% \section{Memberships and Affiliations}
+% \cvitem{2010--2013}{Organization for Computational Neuroscience}
+% \cvitem{2008--2012}{Canadian Association for Neuroscience}
+% \cvitem{2007--2012}{Society for Neuroscience}
+
+
+
+
+% \subsection{Volunteer}
+% \cventry{2012--2013}{Board Member}{\textsc{Reining Alberta}}{}{Sponsorship and Events}{}
+
+% \section{Student Supervision}
+
+% \subsection{B.Sc (Thesis-based) Students}
+% \cventry{2014-2015}{Katherine Ewert}{Semi-Automated identification of patient sub-populations using data-mining algorithms on administrative health databases}{}{}{}
+
+% \subsection{Independent Studies Courses}
+% \cventry{2014}{Katherine Ewert}{MDSC 507 - Analysis of Big Data in Medicine}{}{}{}
+
+%\section{Research Interests}
+%
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\subsection{Peer Reviewed Publications}
+
+% \cvitem{}{\bibentry{nejm-goyal-2015}}
+% \cvitem{}{\bibentry{unk-frolkis-2015}}
+% \cvitem{}{\bibentry{unk-peng-2015}}
+
+\cvitem{2014}{\bibentry{qol-sajobi-2014}}
+\cvitem{}{\bibentry{jds-steele-2014}}
+
+\cvitem{2013}{\bibentry{cartilage-bell-2013}}
+\cvitem{}{\bibentry{cjns-johnston-2013}}
+\cvitem{}{\bibentry{cjns-mah-2013}}
+\cvitem{}{\bibentry{cjns-marriott-2013}}
+\cvitem{}{\bibentry{cjns-smith-2013}}
+
+\cvitem{2012}{\bibentry{pedneuro-knight-2012}}
+
+\cvitem{2010}{\bibentry{ajvr-neundorf-2010}}
+\cvitem{}{\bibentry{jrehabmed-srbely-2010}}
+\cvitem{}{\bibentry{jpain-srbely-2010}}
+
+
+\cvitem{2008}{\bibentry{pain-srbely-2008}}
+
+\cvitem{2007}{\bibentry{ajvr-cruz-2007}}
+
+\cvitem{2006}{\bibentry{evj-changoor-2006}}
+
+\cvitem{2004}{\bibentry{cjas-crews-2004}}
+
+
+
+\subsection{Published Abstracts}
+
+% \cvitem{}{\bibentry{ser-vallerand-2015}}
+% \cvitem{}{\bibentry{cdrin-vallerand-2015}}
+
+
+\cvitem{2013}{\bibentry{aes-fiest-2013}}
+\cvitem{}{\bibentry{aes-lowerison-2013}}
+
+
+\cvitem{2012}{\bibentry{ser-dykeman-2012}}
+\cvitem{}{\bibentry{aan-dykeman-2012}}
+
+
+\cvitem{2010}{\bibentry{icrs-allendorf-2010}}
+\cvitem{}{\bibentry{icrs-bell-2010}}
+\cvitem{}{\bibentry{icrs-hurtig-2010}}
+\cvitem{}{\bibentry{icrs-hurtig-2010a}}
+\cvitem{}{\bibentry{coa-hurtig-2010}}
+\cvitem{}{\bibentry{icrs-lowerison-2010}}
+
+
+
+\cvitem{2009}{\bibentry{csas-lowerison-2009}}
+
+\cvitem{2006}{\bibentry{cjas-lowerison-2006}}
+\cvitem{}{\bibentry{wcgalp-lowerison-2006}}
+
+\cvitem{2004}{\bibentry{asas-crews-2004}}
+
+\subsection{Thesis}
+
+\cvitem{2008}{\bibentry{thesis-lowerison-2009}}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+%
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-3] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+%%\cite{Engbers2012a}
+%
+%%----------------------------------------------------------------------------------------
+
+\bibliographystyle{unsrt}
+\nobibliography{bibliography}
+
+\cfoot{\today}
+
+\end{document}
+
+
+
