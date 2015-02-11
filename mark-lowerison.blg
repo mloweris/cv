@@ -6,45 +6,45 @@ Database file #1: bibliography.bib
 Warning--can't use both volume and number fields in coa-hurtig-2010
 Warning--can't use both volume and number fields in csas-lowerison-2009
 Warning--can't use both volume and number fields in cjas-lowerison-2006
-You've used 30 entries,
+You've used 31 entries,
             1791 wiz_defined-function locations,
-            623 strings with 12161 characters,
-and the built_in function-call counts, 9407 in all, are:
-= -- 708
-> -- 677
+            628 strings with 13199 characters,
+and the built_in function-call counts, 10100 in all, are:
+= -- 720
+> -- 811
 < -- 20
-+ -- 236
-- -- 206
-* -- 825
-:= -- 1526
-add.period$ -- 91
-call.type$ -- 30
-change.case$ -- 29
++ -- 281
+- -- 250
+* -- 915
+:= -- 1679
+add.period$ -- 94
+call.type$ -- 31
+change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 33
-duplicate$ -- 378
-empty$ -- 771
-format.name$ -- 206
-if$ -- 2017
+cite$ -- 34
+duplicate$ -- 386
+empty$ -- 785
+format.name$ -- 250
+if$ -- 2133
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 31
-newline$ -- 153
-num.names$ -- 30
-pop$ -- 92
+int.to.str$ -- 31
+missing$ -- 32
+newline$ -- 158
+num.names$ -- 31
+pop$ -- 95
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 190
+skip$ -- 193
 stack$ -- 0
 substring$ -- 528
-swap$ -- 125
+swap$ -- 126
 text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 78
-width$ -- 32
-write$ -- 341
+while$ -- 79
+width$ -- 33
+write$ -- 351
 (There were 3 warnings)

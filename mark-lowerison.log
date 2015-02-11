@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 FEB 2015 15:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 FEB 2015 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,11 +566,11 @@ Package rerunfilecheck Info: File `mark-lowerison.out' has not changed.
 (rerunfilecheck)             Checksum: BEDD38FF397BD0F91962B7DA7D53C146;1190.
  ) 
 Here is how much of TeX's memory you used:
- 12685 strings out of 493315
- 185244 string characters out of 6137904
- 402716 words of memory out of 5000000
- 15851 multiletter control sequences out of 15000+600000
- 64652 words of font info for 85 fonts, out of 8000000 for 9000
+ 12694 strings out of 493315
+ 185399 string characters out of 6137904
+ 403605 words of memory out of 5000000
+ 15855 multiletter control sequences out of 15000+600000
+ 64884 words of font info for 87 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,13n,67p,790b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -582,10 +582,10 @@ lic/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/l
 msso10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso12.pf
 b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on mark-lowerison.pdf (6 pages, 201354 bytes).
+Output written on mark-lowerison.pdf (6 pages, 202452 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
  22097 words of extra memory for PDF output out of 24883 (max. 10000000)
 
